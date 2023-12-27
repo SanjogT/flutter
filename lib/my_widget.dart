@@ -14,6 +14,7 @@ class _MyWidgetState extends State<MyWidget> {
   Widget build(BuildContext context) {
     print('Rebuilding ........');
     return Container(
+      padding: const EdgeInsets.all(10),
       height: 200,
       width: 200,
       color: Colors.red,
